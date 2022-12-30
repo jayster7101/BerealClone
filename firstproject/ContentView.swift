@@ -182,7 +182,26 @@ struct view_body : View{
                             
                     }.frame(height: 525)
 
-                Button(action: {main_shown.toggle() }, label: {
+                Button(action: {main_shown.toggle()
+                    let url = URL(string: "http://localhost:3000/")!
+                    let task = URLSession.shared.dataTask(with: url) { data, response, error in
+                      if let error = error {
+                        print("Error: \(error)")
+                        return
+                      }
+
+                      guard let httpResponse = response as? HTTPURLResponse,
+                            (200...299).contains(httpResponse.statusCode) else {
+                        print("Error: Invalid HTTP response code")
+                        return
+                      }
+
+                      if let data = data, let dataString = String(data: data, encoding: .utf8) {
+                        print("Response: \(dataString)")
+                      }
+                    }
+                    task.resume()
+                }, label: {
                     Image(main_shown ? (secondaryImage ?? defaultImage) : (mainImage ?? defaultImage))
                         .resizable()
                         .aspectRatio(contentMode: .fill)
