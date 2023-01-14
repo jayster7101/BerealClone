@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>894010498509-tj4f135pkhtln4tslbf4nu7mce5ckbd1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.894010498509-tj4f135pkhtln4tslbf4nu7mce5ckbd1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcHkbl5EGKyN1VjKQAJ-TIZ2dFP7L2qRM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>894010498509</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jaydenjardine.berealclone</string>
+	<key>PROJECT_ID</key>
+	<string>berealclone-7cfc3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>berealclone-7cfc3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:894010498509:ios:d5329e6c541bf1660fb884</string>
+</dict>
+</plist>
